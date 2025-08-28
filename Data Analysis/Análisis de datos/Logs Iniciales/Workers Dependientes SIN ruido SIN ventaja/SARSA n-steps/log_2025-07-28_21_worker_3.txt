@@ -1,0 +1,20 @@
+2025-07-28 21:18:09,007 - INFO - Sarsa n-Steps con workers Dependientes 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.35 
+ gamma 0.99 
+ worker_id 3 
+
+2025-07-28 21:18:09,389 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:18:09,695 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:18:10,053 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:18:10,324 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:18:12,301 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:18:19,266 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:19:42,055 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:20:10,312 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:20:17,514 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:21:04,633 - INFO - Worker 3 copió la Q-table global.
+2025-07-28 21:25:48,486 - INFO - Worker 3 copió la Q-table global.
+2025-07-29 01:57:53,706 - INFO - Worker 3 copió la Q-table global.

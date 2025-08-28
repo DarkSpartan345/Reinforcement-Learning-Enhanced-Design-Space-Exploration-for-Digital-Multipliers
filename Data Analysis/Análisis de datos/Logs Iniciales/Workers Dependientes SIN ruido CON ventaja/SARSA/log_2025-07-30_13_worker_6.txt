@@ -1,0 +1,28 @@
+2025-07-30 13:20:24,442 - INFO - SARSA con workers Dependientes con ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.97 
+ worker_id 6 
+
+2025-07-30 13:20:24,655 - INFO - Decisión: True, Sigmo 0.6607563687658135, Ventaja 6.66666666666665
+2025-07-30 13:20:24,676 - INFO - Worker 6 copió la Q-table global en episodio 1.
+2025-07-30 13:20:25,179 - INFO - Decisión: True, Sigmo 0.998498817743263, Ventaja 12.5
+2025-07-30 13:20:25,197 - INFO - Worker 6 copió la Q-table global en episodio 3.
+2025-07-30 13:20:25,727 - INFO - Decisión: True, Sigmo 0.9997849541965821, Ventaja 14.444444444444436
+2025-07-30 13:20:25,737 - INFO - Worker 6 copió la Q-table global en episodio 6.
+2025-07-30 13:20:26,577 - INFO - Decisión: True, Sigmo 0.9999995229077805, Ventaja 20.555555555555543
+2025-07-30 13:20:26,581 - INFO - Worker 6 copió la Q-table global en episodio 10.
+2025-07-30 13:20:31,854 - INFO - Decisión: True, Sigmo 0.9999999999751128, Ventaja 30.416666666666664
+2025-07-30 13:20:31,870 - INFO - Worker 6 copió la Q-table global en episodio 34.
+2025-07-30 13:20:38,806 - INFO - Decisión: True, Sigmo 0.9999999999999725, Ventaja 37.222222222222214
+2025-07-30 13:20:38,821 - INFO - Worker 6 copió la Q-table global en episodio 59.
+2025-07-30 13:38:10,956 - INFO - Decisión: True, Sigmo 0.9988624926351825, Ventaja 12.777777777777786
+2025-07-30 13:38:10,980 - INFO - Worker 6 copió la Q-table global en episodio 1860.
+2025-07-30 13:59:53,318 - INFO - Decisión: True, Sigmo 0.9998766054240137, Ventaja 15.0
+2025-07-30 13:59:53,345 - INFO - Worker 6 copió la Q-table global en episodio 3752.
+2025-07-30 14:04:23,481 - INFO - Decisión: True, Sigmo 0.9965525486984363, Ventaja 11.666666666666657
+2025-07-30 14:04:23,546 - INFO - Worker 6 copió la Q-table global en episodio 4156.
+2025-07-30 14:23:45,830 - INFO - Decisión: True, Sigmo 0.989600623055954, Ventaja 10.555555555555557
+2025-07-30 14:23:45,889 - INFO - Worker 6 copió la Q-table global en episodio 5791.

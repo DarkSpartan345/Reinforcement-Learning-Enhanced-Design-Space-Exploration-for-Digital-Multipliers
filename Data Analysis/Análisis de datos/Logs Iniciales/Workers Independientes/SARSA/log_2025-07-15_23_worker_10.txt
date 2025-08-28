@@ -1,0 +1,19 @@
+2025-07-15 23:57:37,655 - INFO - Sarsa con workers Independientes 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.3 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 10 
+
+2025-07-15 23:57:37,834 - INFO - Episode 0 actualizó la Q-table con recompensa: [np.float64(6.944444444444429)] con error medio:0.9305555555555557
+2025-07-15 23:57:39,118 - INFO - Episode 8 actualizó la Q-table con recompensa: [np.float64(23.888888888888886)] con error medio:0.7611111111111112
+2025-07-15 23:57:40,503 - INFO - Episode 19 actualizó la Q-table con recompensa: [np.float64(28.33333333333333)] con error medio:0.7166666666666667
+2025-07-15 23:57:46,202 - INFO - Episode 51 actualizó la Q-table con recompensa: [np.float64(40.0)] con error medio:0.6
+2025-07-15 23:57:57,103 - INFO - Episode 106 actualizó la Q-table con recompensa: [np.float64(52.77777777777778)] con error medio:0.4722222222222222
+2025-07-15 23:58:21,590 - INFO - Episode 229 actualizó la Q-table con recompensa: [np.float64(56.94444444444445)] con error medio:0.4305555555555555
+2025-07-15 23:58:35,409 - INFO - Episode 299 actualizó la Q-table con recompensa: [np.float64(60.55555555555555)] con error medio:0.3944444444444445
+2025-07-15 23:58:48,115 - INFO - Episode 359 actualizó la Q-table con recompensa: [np.float64(67.5)] con error medio:0.325
+2025-07-16 00:04:34,463 - INFO - Episode 1991 actualizó la Q-table con recompensa: [np.float64(78.33333333333334)] con error medio:0.21666666666666656
+2025-07-16 01:26:50,233 - INFO - Episode 32399 actualizó la Q-table con recompensa: [np.float64(80.0)] con error medio:0.2
+2025-07-16 02:16:02,048 - INFO - Episode 51596 actualizó la Q-table con recompensa: [np.float64(81.66666666666666)] con error medio:0.18333333333333343

@@ -1,0 +1,16 @@
+2025-07-28 22:06:25,381 - INFO - Q-Learning con workers Dependientes sin ruido 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.4 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 11 
+
+2025-07-28 22:06:25,423 - INFO - Worker 11 copió la Q-table global.
+2025-07-28 22:06:26,273 - INFO - Worker 11 copió la Q-table global.
+2025-07-28 22:06:27,941 - INFO - Worker 11 copió la Q-table global.
+2025-07-28 22:06:45,483 - INFO - Worker 11 copió la Q-table global.
+2025-07-28 22:06:56,283 - INFO - Worker 11 copió la Q-table global.
+2025-07-28 22:07:01,183 - INFO - Worker 11 copió la Q-table global.
+2025-07-28 22:07:54,049 - INFO - Worker 11 copió la Q-table global.
+2025-07-28 22:16:35,570 - INFO - Worker 11 copió la Q-table global.

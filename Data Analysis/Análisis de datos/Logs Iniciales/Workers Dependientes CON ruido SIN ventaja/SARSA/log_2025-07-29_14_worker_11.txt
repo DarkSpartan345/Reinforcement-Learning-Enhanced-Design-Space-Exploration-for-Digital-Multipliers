@@ -1,0 +1,21 @@
+2025-07-29 14:52:37,378 - INFO - SARSA_n_steps con workers Dependientes con ruido sin ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.4 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 11 
+
+2025-07-29 14:52:37,638 - INFO - Worker 11 copió la Q-table global en episodio 1.
+2025-07-29 14:52:37,878 - INFO - Worker 11 copió la Q-table global en episodio 2.
+2025-07-29 14:52:38,609 - INFO - Worker 11 copió la Q-table global en episodio 7.
+2025-07-29 14:52:38,854 - INFO - Worker 11 copió la Q-table global en episodio 8.
+2025-07-29 14:52:44,709 - INFO - Worker 11 copió la Q-table global en episodio 40.
+2025-07-29 14:52:45,894 - INFO - Worker 11 copió la Q-table global en episodio 47.
+2025-07-29 14:53:09,508 - INFO - Worker 11 copió la Q-table global en episodio 181.
+2025-07-29 14:53:15,338 - INFO - Worker 11 copió la Q-table global en episodio 219.
+2025-07-29 14:53:28,417 - INFO - Worker 11 copió la Q-table global en episodio 287.
+2025-07-29 14:53:43,935 - INFO - Worker 11 copió la Q-table global en episodio 387.
+2025-07-29 15:12:17,733 - INFO - Worker 11 copió la Q-table global en episodio 5604.
+2025-07-29 16:21:40,397 - INFO - Worker 11 copió la Q-table global en episodio 16157.
+2025-07-30 00:24:08,708 - INFO - Worker 11 copió la Q-table global en episodio 99472.

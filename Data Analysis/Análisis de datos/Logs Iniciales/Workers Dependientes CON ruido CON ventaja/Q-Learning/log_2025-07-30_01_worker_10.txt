@@ -1,0 +1,29 @@
+2025-07-30 01:49:39,304 - INFO - Q_learning con workers Dependientes con ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.3 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 10 
+
+2025-07-30 01:49:39,683 - INFO - Decisión: True, Sigmo 1.0, Ventaja inf
+2025-07-30 01:49:39,779 - INFO - Worker 10 copió la Q-table global en episodio 0.
+2025-07-30 01:49:40,299 - INFO - Decisión: False, Sigmo 0.049999740399933344, Ventaja 3.055555555555557
+2025-07-30 01:49:40,299 - INFO - Worker 10 NO copió la Q-table global en episodio 1.
+2025-07-30 01:49:42,869 - INFO - Decisión: True, Sigmo 0.9999995229077805, Ventaja 20.555555555555543
+2025-07-30 01:49:42,897 - INFO - Worker 10 copió la Q-table global en episodio 6.
+2025-07-30 01:49:45,945 - INFO - Decisión: True, Sigmo 0.9999999999342029, Ventaja 29.44444444444445
+2025-07-30 01:49:46,050 - INFO - Worker 10 copió la Q-table global en episodio 12.
+2025-07-30 01:50:18,791 - INFO - Decisión: True, Sigmo 0.9999999608378687, Ventaja 23.05555555555557
+2025-07-30 01:50:18,810 - INFO - Worker 10 copió la Q-table global en episodio 70.
+2025-07-30 01:56:05,695 - INFO - Decisión: False, Sigmo 0.5277492350545104, Ventaja 6.1111111111111
+2025-07-30 01:56:05,695 - INFO - Worker 10 NO copió la Q-table global en episodio 798.
+2025-07-30 02:21:00,578 - INFO - Decisión: True, Sigmo 0.9472944339171104, Ventaja 8.8888888888889
+2025-07-30 02:21:00,631 - INFO - Worker 10 copió la Q-table global en episodio 4266.
+2025-07-30 03:35:45,962 - INFO -  Episode 14400 actualizó la Q-table con recompensa: 77.77777777777777 con error medio:0.2222222222222223
+2025-07-30 05:21:29,525 - INFO - Decisión: False, Sigmo 0.10802156134342027, Ventaja 3.8888888888889
+2025-07-30 05:21:29,525 - INFO - Worker 10 NO copió la Q-table global en episodio 27120.
+2025-07-30 08:09:29,974 - INFO - Decisión: False, Sigmo 0.012953727530695928, Ventaja 1.6666666666666714
+2025-07-30 08:09:29,978 - INFO - Worker 10 NO copió la Q-table global en episodio 48654.
+2025-07-30 09:43:37,022 - INFO - Decisión: False, Sigmo 0.012953727530695744, Ventaja 1.6666666666666572
+2025-07-30 09:43:37,023 - INFO - Worker 10 NO copió la Q-table global en episodio 61369.

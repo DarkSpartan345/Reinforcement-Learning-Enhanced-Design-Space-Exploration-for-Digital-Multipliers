@@ -1,0 +1,30 @@
+2025-07-30 13:20:24,507 - INFO - SARSA con workers Dependientes con ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-07-30 13:20:24,542 - INFO - Decisión: True, Sigmo 1.0, Ventaja inf
+2025-07-30 13:20:24,563 - INFO - Worker 9 copió la Q-table global en episodio 0.
+2025-07-30 13:20:24,887 - INFO - Decisión: True, Sigmo 1.0, Ventaja 249.44444444444449
+2025-07-30 13:20:24,917 - INFO - Worker 9 copió la Q-table global en episodio 1.
+2025-07-30 13:20:25,143 - INFO - Decisión: True, Sigmo 1.0, Ventaja 103.61111111111109
+2025-07-30 13:20:25,177 - INFO - Worker 9 copió la Q-table global en episodio 2.
+2025-07-30 13:20:25,684 - INFO - Decisión: True, Sigmo 0.9999974740451665, Ventaja 18.888888888888893
+2025-07-30 13:20:25,701 - INFO - Worker 9 copió la Q-table global en episodio 4.
+2025-07-30 13:20:26,640 - INFO - Decisión: True, Sigmo 0.9999999943972036, Ventaja 25.0
+2025-07-30 13:20:26,651 - INFO - Worker 9 copió la Q-table global en episodio 8.
+2025-07-30 13:20:32,055 - INFO - Decisión: True, Sigmo 0.9999999999994147, Ventaja 34.16666666666667
+2025-07-30 13:20:32,064 - INFO - Worker 9 copió la Q-table global en episodio 32.
+2025-07-30 13:20:39,099 - INFO - Decisión: True, Sigmo 1.0, Ventaja 49.16666666666666
+2025-07-30 13:20:39,110 - INFO - Worker 9 copió la Q-table global en episodio 56.
+2025-07-30 13:38:12,894 - INFO - Decisión: True, Sigmo 0.999996168392208, Ventaja 18.472222222222214
+2025-07-30 13:38:12,947 - INFO - Worker 9 copió la Q-table global en episodio 1964.
+2025-07-30 13:59:53,266 - INFO - Decisión: True, Sigmo 0.9991381400634527, Ventaja 13.055555555555557
+2025-07-30 13:59:53,312 - INFO - Worker 9 copió la Q-table global en episodio 3838.
+2025-07-30 14:04:24,072 - INFO - Decisión: True, Sigmo 0.9995053231863361, Ventaja 13.611111111111114
+2025-07-30 14:04:24,111 - INFO - Worker 9 copió la Q-table global en episodio 4187.
+2025-07-30 14:23:46,353 - INFO - Decisión: True, Sigmo 0.999946369196649, Ventaja 15.833333333333329
+2025-07-30 14:23:46,414 - INFO - Worker 9 copió la Q-table global en episodio 6057.

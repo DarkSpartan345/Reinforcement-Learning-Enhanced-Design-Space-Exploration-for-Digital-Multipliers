@@ -1,0 +1,13 @@
+2025-07-14 14:39:08,281 - INFO - Sarsa_n_steps con workers Independientes 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.2 
+ gamma 0.99 
+ worker_id 2 
+
+2025-07-14 14:39:08,376 - INFO - Episode 0 actualizó la Q-table con recompensa: [np.float64(30.555555555555557)] con error medio:0.6944444444444444
+2025-07-14 14:39:09,681 - INFO - Episode 8 actualizó la Q-table con recompensa: [np.float64(70.55555555555556)] con error medio:0.29444444444444445
+2025-07-14 14:43:23,399 - INFO - Episode 2105 actualizó la Q-table con recompensa: [np.float64(75.83333333333334)] con error medio:0.24166666666666659
+2025-07-14 14:44:30,808 - INFO - Episode 2648 actualizó la Q-table con recompensa: [np.float64(76.11111111111111)] con error medio:0.23888888888888885
+2025-07-14 15:04:01,148 - INFO - Episode 12716 actualizó la Q-table con recompensa: [np.float64(84.44444444444444)] con error medio:0.15555555555555556

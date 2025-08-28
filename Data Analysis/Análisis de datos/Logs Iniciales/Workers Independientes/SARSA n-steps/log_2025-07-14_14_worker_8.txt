@@ -1,0 +1,25 @@
+2025-07-14 14:39:08,302 - INFO - Sarsa_n_steps con workers Independientes 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.1 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 8 
+
+2025-07-14 14:39:08,525 - INFO - Episode 0 actualizó la Q-table con recompensa: [np.float64(-13.333333333333329)] con error medio:1.1333333333333333
+2025-07-14 14:39:09,224 - INFO - Episode 3 actualizó la Q-table con recompensa: [np.float64(-2.500000000000014)] con error medio:1.0250000000000001
+2025-07-14 14:39:09,512 - INFO - Episode 5 actualizó la Q-table con recompensa: [np.float64(16.25)] con error medio:0.8375
+2025-07-14 14:39:10,178 - INFO - Episode 8 actualizó la Q-table con recompensa: [np.float64(20.83333333333333)] con error medio:0.7916666666666667
+2025-07-14 14:39:10,692 - INFO - Episode 10 actualizó la Q-table con recompensa: [np.float64(28.611111111111114)] con error medio:0.7138888888888889
+2025-07-14 14:39:11,266 - INFO - Episode 13 actualizó la Q-table con recompensa: [np.float64(29.166666666666657)] con error medio:0.7083333333333335
+2025-07-14 14:39:12,330 - INFO - Episode 17 actualizó la Q-table con recompensa: [np.float64(31.944444444444443)] con error medio:0.6805555555555556
+2025-07-14 14:39:14,702 - INFO - Episode 26 actualizó la Q-table con recompensa: [np.float64(41.94444444444445)] con error medio:0.5805555555555555
+2025-07-14 14:39:25,995 - INFO - Episode 71 actualizó la Q-table con recompensa: [np.float64(43.888888888888886)] con error medio:0.5611111111111111
+2025-07-14 14:39:41,411 - INFO - Episode 129 actualizó la Q-table con recompensa: [np.float64(48.75000000000001)] con error medio:0.5125
+2025-07-14 14:40:00,565 - INFO - Episode 254 actualizó la Q-table con recompensa: [np.float64(51.11111111111111)] con error medio:0.48888888888888893
+2025-07-14 14:40:06,486 - INFO - Episode 306 actualizó la Q-table con recompensa: [np.float64(57.77777777777778)] con error medio:0.4222222222222222
+2025-07-14 14:41:52,963 - INFO - Episode 1326 actualizó la Q-table con recompensa: [np.float64(76.66666666666667)] con error medio:0.23333333333333328
+2025-07-14 14:42:48,245 - INFO - Episode 1836 actualizó la Q-table con recompensa: [np.float64(78.33333333333334)] con error medio:0.21666666666666656
+2025-07-14 15:48:47,802 - INFO - Episode 39449 actualizó la Q-table con recompensa: [np.float64(81.66666666666666)] con error medio:0.18333333333333343
+2025-07-14 15:49:29,329 - INFO - Episode 39844 actualizó la Q-table con recompensa: [np.float64(85.0)] con error medio:0.15
+2025-07-14 16:14:12,395 - INFO - Episode 53619 actualizó la Q-table con recompensa: [np.float64(87.22222222222223)] con error medio:0.1277777777777777

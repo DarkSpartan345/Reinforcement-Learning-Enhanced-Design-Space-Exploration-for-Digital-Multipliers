@@ -1,0 +1,42 @@
+2025-07-30 01:44:26,866 - INFO - SARSA con workers Dependientes con ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.35 
+ gamma 0.99 
+ worker_id 3 
+
+2025-07-30 01:44:27,250 - INFO - Decisión: True, Sigmo 1.0, Ventaja 60.00000000000003
+2025-07-30 01:44:27,307 - INFO - Worker 3 copió la Q-table global en episodio 1.
+2025-07-30 01:44:27,559 - INFO - Decisión: True, Sigmo 0.999999999995909, Ventaja 32.22222222222224
+2025-07-30 01:44:27,583 - INFO - Worker 3 copió la Q-table global en episodio 2.
+2025-07-30 01:44:27,947 - INFO - Decisión: True, Sigmo 1.0, Ventaja 52.777777777777786
+2025-07-30 01:44:27,974 - INFO - Worker 3 copió la Q-table global en episodio 3.
+2025-07-30 01:44:29,111 - INFO - Decisión: True, Sigmo 0.9999999999622486, Ventaja 29.999999999999986
+2025-07-30 01:44:29,160 - INFO - Worker 3 copió la Q-table global en episodio 7.
+2025-07-30 01:44:31,934 - INFO - Decisión: True, Sigmo 0.8717662624074812, Ventaja 7.916666666666671
+2025-07-30 01:44:31,951 - INFO - Worker 3 copió la Q-table global en episodio 15.
+2025-07-30 01:44:42,669 - INFO - Decisión: True, Sigmo 0.9982755326642467, Ventaja 12.361111111111114
+2025-07-30 01:44:42,698 - INFO - Worker 3 copió la Q-table global en episodio 43.
+2025-07-30 01:44:56,126 - INFO - Decisión: True, Sigmo 0.9994316599983019, Ventaja 13.472222222222221
+2025-07-30 01:44:56,144 - INFO - Worker 3 copió la Q-table global en episodio 81.
+2025-07-30 01:44:56,600 - INFO - Decisión: True, Sigmo 0.9994316599983019, Ventaja 13.472222222222229
+2025-07-30 01:44:56,614 - INFO - Worker 3 copió la Q-table global en episodio 82.
+2025-07-30 01:45:08,841 - INFO - Decisión: True, Sigmo 0.9998128351007952, Ventaja 14.583333333333343
+2025-07-30 01:45:08,911 - INFO - Worker 3 copió la Q-table global en episodio 104.
+2025-07-30 01:45:35,640 - INFO - Decisión: True, Sigmo 0.9999933218753096, Ventaja 17.916666666666657
+2025-07-30 01:45:35,678 - INFO - Worker 3 copió la Q-table global en episodio 194.
+2025-07-30 01:46:27,608 - INFO - Decisión: True, Sigmo 0.999997801598332, Ventaja 19.02777777777777
+2025-07-30 01:46:27,640 - INFO - Worker 3 copió la Q-table global en episodio 282.
+2025-07-30 01:46:32,094 - INFO - Decisión: True, Sigmo 0.999999999078995, Ventaja 26.805555555555557
+2025-07-30 01:46:32,106 - INFO - Worker 3 copió la Q-table global en episodio 295.
+2025-07-30 01:57:55,772 - INFO - Decisión: True, Sigmo 0.9999999482984372, Ventaja 22.77777777777778
+2025-07-30 01:57:55,810 - INFO - Worker 3 copió la Q-table global en episodio 2036.
+2025-07-30 02:10:45,646 - INFO - Decisión: True, Sigmo 0.9999823444804328, Ventaja 16.944444444444443
+2025-07-30 02:10:45,676 - INFO - Worker 3 copió la Q-table global en episodio 3925.
+2025-07-30 02:11:36,207 - INFO - Decisión: True, Sigmo 0.9999985507232133, Ventaja 19.444444444444443
+2025-07-30 02:11:36,277 - INFO - Worker 3 copió la Q-table global en episodio 4026.
+2025-07-30 04:30:34,264 - INFO - Decisión: True, Sigmo 0.9973864906310558, Ventaja 11.944444444444443
+2025-07-30 04:30:34,297 - INFO - Worker 3 copió la Q-table global en episodio 23658.
+2025-07-30 05:38:09,553 - INFO - Decisión: True, Sigmo 0.9998371018067675, Ventaja 14.722222222222214
+2025-07-30 05:38:09,628 - INFO - Worker 3 copió la Q-table global en episodio 32530.

@@ -1,0 +1,19 @@
+2025-07-29 15:06:12,230 - INFO - q_learning con workers Dependientes con ruido sin ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-07-29 15:06:12,603 - INFO - Worker 9 copió la Q-table global en episodio 1.
+2025-07-29 15:06:13,307 - INFO - Worker 9 copió la Q-table global en episodio 2.
+2025-07-29 15:07:14,056 - INFO - Worker 9 copió la Q-table global en episodio 186.
+2025-07-29 15:07:18,695 - INFO - Worker 9 copió la Q-table global en episodio 203.
+2025-07-29 15:07:56,575 - INFO - Worker 9 copió la Q-table global en episodio 322.
+2025-07-29 15:13:16,459 - INFO -  Episode 1327 actualizó la Q-table con recompensa: 75.83333333333334 con error medio:0.24166666666666659
+2025-07-29 16:24:53,047 - INFO - Worker 9 copió la Q-table global en episodio 15547.
+2025-07-29 16:44:20,899 - INFO - Worker 9 copió la Q-table global en episodio 19313.
+2025-07-29 18:53:56,284 - INFO - Worker 9 copió la Q-table global en episodio 44480.
+2025-07-29 19:11:17,397 - INFO - Worker 9 copió la Q-table global en episodio 48445.
+2025-07-29 22:58:03,482 - INFO - Worker 9 copió la Q-table global en episodio 95718.

@@ -1,0 +1,38 @@
+2025-07-30 13:36:10,213 - INFO - Q_learning con workers Dependientes sin ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-07-30 13:36:10,539 - INFO - Decisión: False, Sigmo 0.0024726231566347743, Ventaja 0.0
+2025-07-30 13:36:10,540 - INFO - Worker 1 NO copió la Q-table global en episodio 1.
+2025-07-30 13:36:10,759 - INFO - Decisión: True, Sigmo 1.0, Ventaja 46.666666666666686
+2025-07-30 13:36:10,782 - INFO - Worker 1 copió la Q-table global en episodio 2.
+2025-07-30 13:36:11,500 - INFO - Decisión: True, Sigmo 1.0, Ventaja 47.7777777777778
+2025-07-30 13:36:11,526 - INFO - Worker 1 copió la Q-table global en episodio 4.
+2025-07-30 13:36:12,605 - INFO - Decisión: False, Sigmo 0.05702470142109301, Ventaja 3.194444444444443
+2025-07-30 13:36:12,606 - INFO - Worker 1 NO copió la Q-table global en episodio 8.
+2025-07-30 13:36:15,150 - INFO - Decisión: False, Sigmo 0.0024726231566347743, Ventaja 0.0
+2025-07-30 13:36:15,150 - INFO - Worker 1 NO copió la Q-table global en episodio 17.
+2025-07-30 13:36:15,372 - INFO - Decisión: False, Sigmo 0.017030779274116073, Ventaja 1.9444444444444429
+2025-07-30 13:36:15,372 - INFO - Worker 1 NO copió la Q-table global en episodio 18.
+2025-07-30 13:36:17,438 - INFO - Decisión: False, Sigmo 0.0024726231566347743, Ventaja 0.0
+2025-07-30 13:36:17,439 - INFO - Worker 1 NO copió la Q-table global en episodio 26.
+2025-07-30 13:36:17,585 - INFO -  Episode 26 actualizó la Q-table con recompensa: 38.888888888888886 con error medio:0.6111111111111112
+2025-07-30 13:36:23,778 - INFO -  Episode 50 actualizó la Q-table con recompensa: 45.83333333333333 con error medio:0.5416666666666667
+2025-07-30 13:36:24,246 - INFO - Decisión: True, Sigmo 0.998498817743263, Ventaja 12.500000000000007
+2025-07-30 13:36:24,296 - INFO - Worker 1 copió la Q-table global en episodio 52.
+2025-07-30 13:36:42,312 - INFO -  Episode 118 actualizó la Q-table con recompensa: 60.0 con error medio:0.4
+2025-07-30 13:40:07,753 - INFO -  Episode 902 actualizó la Q-table con recompensa: 65.0 con error medio:0.35
+2025-07-30 13:41:49,693 - INFO -  Episode 1319 actualizó la Q-table con recompensa: 66.80555555555554 con error medio:0.3319444444444446
+2025-07-30 13:47:24,885 - INFO -  Episode 2666 actualizó la Q-table con recompensa: 75.83333333333334 con error medio:0.24166666666666659
+2025-07-30 14:45:34,759 - INFO - Decisión: False, Sigmo 0.21792873238451368, Ventaja 4.722222222222214
+2025-07-30 14:45:34,759 - INFO - Worker 1 NO copió la Q-table global en episodio 16370.
+2025-07-30 14:47:11,530 - INFO - Decisión: False, Sigmo 0.03833797212535941, Ventaja 2.7777777777777715
+2025-07-30 14:47:11,530 - INFO - Worker 1 NO copió la Q-table global en episodio 16743.
+2025-07-30 15:45:13,417 - INFO - Decisión: False, Sigmo 0.005671203013740938, Ventaja 0.8333333333333428
+2025-07-30 15:45:13,417 - INFO - Worker 1 NO copió la Q-table global en episodio 30173.
+2025-07-30 18:10:01,694 - INFO - Decisión: False, Sigmo 0.005671203013740858, Ventaja 0.8333333333333286
+2025-07-30 18:10:01,695 - INFO - Worker 1 NO copió la Q-table global en episodio 59300.

@@ -1,0 +1,42 @@
+2025-07-30 13:36:10,363 - INFO - Q_learning con workers Dependientes sin ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.4 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 11 
+
+2025-07-30 13:36:10,393 - INFO - Decisión: True, Sigmo 1.0, Ventaja inf
+2025-07-30 13:36:10,410 - INFO - Worker 11 copió la Q-table global en episodio 0.
+2025-07-30 13:36:10,804 - INFO - Decisión: False, Sigmo 0.0024726231566347743, Ventaja 0.0
+2025-07-30 13:36:10,804 - INFO - Worker 11 NO copió la Q-table global en episodio 2.
+2025-07-30 13:36:11,606 - INFO - Decisión: False, Sigmo 0.00747351033519367, Ventaja 1.1111111111111143
+2025-07-30 13:36:11,606 - INFO - Worker 11 NO copió la Q-table global en episodio 4.
+2025-07-30 13:36:13,002 - INFO - Decisión: False, Sigmo 0.019518775144003544, Ventaja 2.0833333333333286
+2025-07-30 13:36:13,003 - INFO - Worker 11 NO copió la Q-table global en episodio 7.
+2025-07-30 13:36:15,218 - INFO - Decisión: True, Sigmo 0.4584295167832025, Ventaja 5.833333333333343
+2025-07-30 13:36:15,246 - INFO - Worker 11 copió la Q-table global en episodio 15.
+2025-07-30 13:36:15,415 - INFO - Decisión: False, Sigmo 0.017030779274116073, Ventaja 1.9444444444444429
+2025-07-30 13:36:15,416 - INFO - Worker 11 NO copió la Q-table global en episodio 16.
+2025-07-30 13:36:17,623 - INFO - Decisión: True, Sigmo 0.9991381400634527, Ventaja 13.055555555555543
+2025-07-30 13:36:17,648 - INFO - Worker 11 copió la Q-table global en episodio 24.
+2025-07-30 13:36:23,880 - INFO - Decisión: True, Sigmo 0.7199965396446172, Ventaja 6.944444444444443
+2025-07-30 13:36:23,905 - INFO - Worker 11 copió la Q-table global en episodio 49.
+2025-07-30 13:36:24,367 - INFO - Decisión: True, Sigmo 0.9999985507232133, Ventaja 19.44444444444445
+2025-07-30 13:36:24,400 - INFO - Worker 11 copió la Q-table global en episodio 51.
+2025-07-30 13:36:42,565 - INFO - Decisión: True, Sigmo 0.9820137900379085, Ventaja 10.0
+2025-07-30 13:36:42,579 - INFO - Worker 11 copió la Q-table global en episodio 115.
+2025-07-30 13:40:07,885 - INFO - Decisión: False, Sigmo 0.2689414213699951, Ventaja 5.0
+2025-07-30 13:40:07,885 - INFO - Worker 11 NO copió la Q-table global en episodio 896.
+2025-07-30 13:41:49,825 - INFO - Decisión: False, Sigmo 0.01485511539360106, Ventaja 1.805555555555543
+2025-07-30 13:41:49,825 - INFO - Worker 11 NO copió la Q-table global en episodio 1307.
+2025-07-30 13:47:25,146 - INFO - Decisión: True, Sigmo 0.9538133751394468, Ventaja 9.0277777777778
+2025-07-30 13:47:25,157 - INFO - Worker 11 copió la Q-table global en episodio 2652.
+2025-07-30 14:45:34,442 - INFO - Decisión: False, Sigmo 0.21792873238451368, Ventaja 4.722222222222214
+2025-07-30 14:45:34,442 - INFO - Worker 11 NO copió la Q-table global en episodio 16348.
+2025-07-30 14:47:11,677 - INFO - Decisión: False, Sigmo 0.03833797212535941, Ventaja 2.7777777777777715
+2025-07-30 14:47:11,677 - INFO - Worker 11 NO copió la Q-table global en episodio 16728.
+2025-07-30 15:45:13,074 - INFO - Decisión: False, Sigmo 0.005671203013740938, Ventaja 0.8333333333333428
+2025-07-30 15:45:13,074 - INFO - Worker 11 NO copió la Q-table global en episodio 30117.
+2025-07-30 18:10:01,641 - INFO - Decisión: False, Sigmo 0.005671203013740858, Ventaja 0.8333333333333286
+2025-07-30 18:10:01,641 - INFO - Worker 11 NO copió la Q-table global en episodio 59287.

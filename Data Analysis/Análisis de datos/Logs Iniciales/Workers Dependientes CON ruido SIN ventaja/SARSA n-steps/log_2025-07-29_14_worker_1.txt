@@ -1,0 +1,16 @@
+2025-07-29 14:59:17,242 - INFO - SARSA_n_steps con workers Dependientes con ruido sin ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-07-29 14:59:17,963 - INFO - Worker 1 copió la Q-table global en episodio 1.
+2025-07-29 14:59:20,397 - INFO -  Episode 8 actualizó la Q-table con recompensa: 51.11111111111112 con error medio:0.48888888888888876
+2025-07-29 14:59:24,545 - INFO - Worker 1 copió la Q-table global en episodio 24.
+2025-07-29 15:02:19,986 - INFO - Worker 1 copió la Q-table global en episodio 594.
+2025-07-29 16:06:00,628 - INFO - Worker 1 copió la Q-table global en episodio 10870.
+2025-07-29 16:33:39,100 - INFO - Worker 1 copió la Q-table global en episodio 14681.
+2025-07-29 16:41:40,757 - INFO - Worker 1 copió la Q-table global en episodio 15825.
+2025-07-30 00:01:11,086 - INFO -  Episode 90325 actualizó la Q-table con recompensa: 91.11111111111111 con error medio:0.08888888888888885

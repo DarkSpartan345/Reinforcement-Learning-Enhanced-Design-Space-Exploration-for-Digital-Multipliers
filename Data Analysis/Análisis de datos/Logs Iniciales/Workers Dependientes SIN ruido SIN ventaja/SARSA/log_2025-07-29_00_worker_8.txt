@@ -1,0 +1,22 @@
+2025-07-29 00:50:31,626 - INFO - SARSA con workers Dependientes sin ruido ni ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.1 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 8 
+
+2025-07-29 00:50:32,631 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 00:50:33,145 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 00:50:33,850 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 00:50:34,480 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 00:50:36,204 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 00:50:36,792 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 00:50:47,819 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 00:51:01,972 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 00:52:19,254 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 01:00:16,641 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 01:05:55,987 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 01:12:19,748 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 02:17:58,514 - INFO - Worker 8 copió la Q-table global.
+2025-07-29 04:06:02,500 - INFO - Worker 8 copió la Q-table global.

@@ -1,0 +1,21 @@
+2025-07-14 14:39:08,289 - INFO - Sarsa_n_steps con workers Independientes 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.97 
+ worker_id 6 
+
+2025-07-14 14:39:08,466 - INFO - Episode 0 actualizó la Q-table con recompensa: [np.float64(30.555555555555557)] con error medio:0.6944444444444444
+2025-07-14 14:39:09,369 - INFO - Episode 6 actualizó la Q-table con recompensa: [np.float64(32.222222222222214)] con error medio:0.6777777777777778
+2025-07-14 14:39:10,581 - INFO - Episode 15 actualizó la Q-table con recompensa: [np.float64(38.33333333333334)] con error medio:0.6166666666666666
+2025-07-14 14:39:32,890 - INFO - Episode 107 actualizó la Q-table con recompensa: [np.float64(59.166666666666664)] con error medio:0.4083333333333334
+2025-07-14 14:40:17,737 - INFO - Episode 362 actualizó la Q-table con recompensa: [np.float64(61.111111111111114)] con error medio:0.38888888888888884
+2025-07-14 14:44:23,589 - INFO - Episode 2576 actualizó la Q-table con recompensa: [np.float64(61.66666666666667)] con error medio:0.3833333333333333
+2025-07-14 14:44:35,581 - INFO - Episode 2693 actualizó la Q-table con recompensa: [np.float64(62.777777777777786)] con error medio:0.3722222222222221
+2025-07-14 14:44:38,381 - INFO - Episode 2722 actualizó la Q-table con recompensa: [np.float64(66.66666666666667)] con error medio:0.33333333333333326
+2025-07-14 15:00:07,968 - INFO - Episode 10985 actualizó la Q-table con recompensa: [np.float64(70.0)] con error medio:0.3
+2025-07-14 15:05:55,093 - INFO - Episode 14108 actualizó la Q-table con recompensa: [np.float64(75.0)] con error medio:0.25
+2025-07-14 15:16:00,837 - INFO - Episode 19729 actualizó la Q-table con recompensa: [np.float64(79.16666666666667)] con error medio:0.2083333333333333
+2025-07-14 15:58:08,379 - INFO - Episode 43625 actualizó la Q-table con recompensa: [np.float64(80.0)] con error medio:0.2
+2025-07-14 16:26:17,214 - INFO - Episode 59614 actualizó la Q-table con recompensa: [np.float64(81.11111111111111)] con error medio:0.18888888888888886
