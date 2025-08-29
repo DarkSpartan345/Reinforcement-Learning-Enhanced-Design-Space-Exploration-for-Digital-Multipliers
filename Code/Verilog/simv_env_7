@@ -1,0 +1,184 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x5c178559b3c0 .scope module, "tb_multiplier_8bit" "tb_multiplier_8bit" 2 3;
+ .timescale -9 -12;
+v0x5c17855bc790_0 .var "A", 1 0;
+v0x5c17855bc850_0 .var "B", 1 0;
+v0x5c17855bc8f0_0 .net "P", 3 0, L_0x5c17855bd260;  1 drivers
+S_0x5c178559b550 .scope module, "uut" "multiplier" 2 12, 3 3 0, S_0x5c178559b3c0;
+ .timescale -9 -12;
+    .port_info 0 /INPUT 2 "A";
+    .port_info 1 /INPUT 2 "B";
+    .port_info 2 /OUTPUT 4 "P";
+L_0x791fb2eb8060 .functor BUFT 1, C4<01>, C4<0>, C4<0>, C4<0>;
+L_0x5c17855bcc00 .functor AND 2, L_0x5c17855bcac0, L_0x791fb2eb8060, C4<11>, C4<11>;
+v0x5c178559b780_0 .net "A", 1 0, v0x5c17855bc790_0;  1 drivers
+v0x5c17855bbac0_0 .net "B", 1 0, v0x5c17855bc850_0;  1 drivers
+v0x5c17855bbba0_0 .net "P", 3 0, L_0x5c17855bd260;  alias, 1 drivers
+v0x5c17855bbc60_0 .net *"_ivl_1", 0 0, L_0x5c17855bc9f0;  1 drivers
+L_0x791fb2eb80a8 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x5c17855bbd40_0 .net *"_ivl_15", 0 0, L_0x791fb2eb80a8;  1 drivers
+v0x5c17855bbe70_0 .net *"_ivl_16", 3 0, L_0x5c17855bcfa0;  1 drivers
+L_0x791fb2eb80f0 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
+v0x5c17855bbf50_0 .net *"_ivl_19", 1 0, L_0x791fb2eb80f0;  1 drivers
+v0x5c17855bc030_0 .net *"_ivl_2", 1 0, L_0x5c17855bcac0;  1 drivers
+v0x5c17855bc110_0 .net *"_ivl_22", 0 0, L_0x5c17855bd0e0;  1 drivers
+L_0x791fb2eb8138 .functor BUFT 1, C4<000>, C4<0>, C4<0>, C4<0>;
+v0x5c17855bc1f0_0 .net *"_ivl_24", 2 0, L_0x791fb2eb8138;  1 drivers
+L_0x791fb2eb8018 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0x5c17855bc2d0_0 .net *"_ivl_5", 0 0, L_0x791fb2eb8018;  1 drivers
+v0x5c17855bc3b0_0 .net/2u *"_ivl_6", 1 0, L_0x791fb2eb8060;  1 drivers
+v0x5c17855bc490_0 .net *"_ivl_8", 1 0, L_0x5c17855bcc00;  1 drivers
+v0x5c17855bc570_0 .net "columna4", 1 0, L_0x5c17855bce30;  1 drivers
+v0x5c17855bc650_0 .net "pp0", 0 0, L_0x5c17855bcd40;  1 drivers
+L_0x5c17855bc9f0 .part v0x5c17855bc790_0, 1, 1;
+L_0x5c17855bcac0 .concat [ 1 1 0 0], L_0x5c17855bc9f0, L_0x791fb2eb8018;
+L_0x5c17855bcd40 .part L_0x5c17855bcc00, 0, 1;
+L_0x5c17855bce30 .concat [ 1 1 0 0], L_0x5c17855bcd40, L_0x791fb2eb80a8;
+L_0x5c17855bcfa0 .concat [ 2 2 0 0], L_0x5c17855bce30, L_0x791fb2eb80f0;
+L_0x5c17855bd0e0 .part L_0x5c17855bcfa0, 0, 1;
+L_0x5c17855bd260 .concat [ 3 1 0 0], L_0x791fb2eb8138, L_0x5c17855bd0e0;
+    .scope S_0x5c178559b3c0;
+T_0 ;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 25 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 32 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 39 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 46 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 53 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 60 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 67 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 74 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 81 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 88 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 95 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 102 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 109 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 116 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 123 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 130 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 137 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 144 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 3, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 151 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc790_0, 0, 2;
+    %pushi/vec4 2, 0, 2;
+    %store/vec4 v0x5c17855bc850_0, 0, 2;
+    %delay 10000, 0;
+    %vpi_call 2 158 "$display", "%d", v0x5c17855bc8f0_0 {0 0 0};
+    %vpi_call 2 162 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+    .scope S_0x5c178559b3c0;
+T_1 ;
+    %vpi_call 2 167 "$dumpfile", "multiplier_8bit_tb.vcd" {0 0 0};
+    %vpi_call 2 168 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x5c178559b3c0 {0 0 0};
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "Verilog/multiplier_8bit_tb_env_7_2.v";
+    "Verilog/multiplier_env_7_2.v";

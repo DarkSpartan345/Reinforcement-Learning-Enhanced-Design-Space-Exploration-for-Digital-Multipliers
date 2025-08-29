@@ -1,0 +1,72 @@
+2025-08-29 16:39:44,053 - INFO - SARSA con workers Dependientes con ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-08-29 16:39:44,066 - INFO - Traceback (most recent call last):
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/main_Parallel_Procesor.py", line 28, in worker
+    total_reward = local_agent.n_step_sarsa(policy=local_agent.policy_sarsa,episodes=1,epsilon_decay=epsilon_decay, alpha=alpha, gamma=gamma,epsilon=epsilon,env_id=worker_id,height=2,bits=2,reward=reward)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Agents/Agent_Parallel_Procesor.py", line 101, in n_step_sarsa
+    next_state,reward,done,trucated,_=env.step(action)
+                                      ^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Envs/Env_parallel_Processor.py", line 15, in step
+    return super().step(action,arch_multiplier=self.arch_multiplier,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Envs/env_base.py", line 105, in step
+    terminated=self.closed(arch_multiplier=arch_multiplier,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Envs/Env_parallel_Processor.py", line 31, in closed
+    test_cases,results=super().generate_verilog(arch_multiplier=self.arch_multiplier,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Envs/env_base.py", line 189, in generate_verilog
+    with open(arch_multiplier, 'w') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Verilog/multiplier_env_1_2.v'
+
+2025-08-29 16:40:24,469 - INFO - SARSA con workers Dependientes con ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-08-29 16:40:24,477 - INFO - Traceback (most recent call last):
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/main_Parallel_Procesor.py", line 28, in worker
+    total_reward = local_agent.n_step_sarsa(policy=local_agent.policy_sarsa,episodes=1,epsilon_decay=epsilon_decay, alpha=alpha, gamma=gamma,epsilon=epsilon,env_id=worker_id,height=2,bits=2,reward=reward)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Agents/Agent_Parallel_Procesor.py", line 101, in n_step_sarsa
+    next_state,reward,done,trucated,_=env.step(action)
+                                      ^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Envs/Env_parallel_Processor.py", line 15, in step
+    return super().step(action,arch_multiplier=self.arch_multiplier,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Envs/env_base.py", line 105, in step
+    terminated=self.closed(arch_multiplier=arch_multiplier,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Envs/Env_parallel_Processor.py", line 31, in closed
+    test_cases,results=super().generate_verilog(arch_multiplier=self.arch_multiplier,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastian/Documents/GitHub/Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers/Code/Envs/env_base.py", line 199, in generate_verilog
+    with open('Verilog/testbench_template.v', 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Verilog/testbench_template.v'
+
+2025-08-29 16:40:50,759 - INFO - SARSA con workers Dependientes con ruido con ventaja 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-08-29 16:40:50,803 - INFO -  Episode 0 actualizó la Q-table con recompensa: -46.111111111111114 con error medio:1.4611111111111112
+2025-08-29 16:40:50,847 - INFO - Worker 1 copió la Q-table global en episodio 2.
+2025-08-29 16:40:50,897 - INFO - Worker 1 copió la Q-table global en episodio 4.
+2025-08-29 16:40:51,103 - INFO - Worker 1 copió la Q-table global en episodio 11.
+2025-08-29 16:41:14,516 - INFO - Worker 1 copió la Q-table global en episodio 838.
+2025-08-29 16:42:52,108 - INFO - Worker 1 copió la Q-table global en episodio 4976.
