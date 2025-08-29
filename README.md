@@ -1,2 +1,3 @@
-# Reinforcement-Learning-Enhanced-Design-Space-Exploration-for-Digital-Multipliers
-This repository provides the code, configurations, and plots from the research on Reinforcement Learning‑Enhanced Design Space Exploration for Digital Multipliers . It enables full reproduction of experiments, visualization of results, and exploration of the RL agents' decision-making process.
+# Reinforcement Learning Enhanced Design Space Exploration for Digital Multipliers
+This repository contains the complete codebase, configuration files, and result visualizations for the research project exploring how Reinforcement Learning (RL) can improve Design Space Exploration (DSE) in the context of digital multiplier architectures.
+## Project Overview
