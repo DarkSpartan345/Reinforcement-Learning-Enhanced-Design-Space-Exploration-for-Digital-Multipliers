@@ -36,13 +36,6 @@ El código permite entrenar agentes en paralelo compartiendo una **Q-table globa
 
 ---
 
-## 🚀 Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repo.git
-   cd tu_repo
-   ```
 
 2. Crea un entorno virtual:
    ```bash

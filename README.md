@@ -71,10 +71,12 @@ To start RL-based exploration with parallel agents:
 
 ```bash
 cd Code
-python main_Parallel_Procesor.py
+python main_Parallel_Procesor.py --w 4 --ep 1000 --s cooperation --a SARSA
 ```
 
-Logs will be saved in the `Logs/` directory, and generated Verilog files will appear under `Verilog/`.
+Logs will be saved in the Logs/ directory, and generated Verilog files will appear under Verilog/.
+
+For more details on execution options and how to adjust parameters, please refer to the Code/README.md, which provides a guide to available arguments and configuration choices.
 
 ## Results
 
