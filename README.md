@@ -61,7 +61,8 @@ Follow the steps below depending on your operating system:
 ### Linux (Ubuntu/Debian)
 ```bash
 sudo apt update
-sudo apt install iverilog gtkwave -y
+sudo apt install iverilog gtkwave 
+```
 
 
 ### Running the Project
