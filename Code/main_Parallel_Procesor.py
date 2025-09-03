@@ -18,7 +18,7 @@ def worker(worker_id,best_reward,reward, global_q_table, episodes, epsilon_decay
     local_agent = Parallel_Agents_Procesors(action_values=local_q_table,algoritm=algoritmo)  # Cada worker inicia con la tabla global
     logs.log(f"SARSA {stategy} \n Reward {reward} Bits {bits} Height {height} \n Episodios: {episodes} \n epsilon {epsilon} \n alpha {alpha} \n gamma {gamma} \n worker_id {worker_id} \n")
     local_reward = float("-inf")
-    Strategy = strategy(logs=logs,shape=local_agent.action_values.shape,stategy=stategy,global_q_table=global_q_table,worker_id=worker_id,episode=episode,best_reward=best_reward,local_reward=local_reward,q_table_agent=local_agent.action_values)
+    Strategy = strategy(logs=logs,shape=local_agent.action_values.shape,stategy=stategy,global_q_table=global_q_table,worker_id=worker_id,episode=episodes,best_reward=best_reward,local_reward=local_reward,q_table_agent=local_agent.action_values)
     try:
         for episode in tqdm(range(episodes)):
             if update_flags[worker_id]:  

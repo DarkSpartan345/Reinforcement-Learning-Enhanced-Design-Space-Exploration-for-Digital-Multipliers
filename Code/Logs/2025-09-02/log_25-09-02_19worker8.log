@@ -1,0 +1,65 @@
+2025-09-02 19:04:55,811 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.1 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 8 
+
+2025-09-02 19:05:55,267 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.1 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 8 
+
+2025-09-02 19:06:08,553 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.1 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 8 
+
+2025-09-02 19:06:09,269 - INFO -  Episode 0 actualizó la Q-table con recompensa: -30.0 con error medio:1.3
+2025-09-02 19:06:33,501 - INFO - SARSA cooperation 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.1 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 8 
+
+2025-09-02 19:06:33,909 - INFO -  Episode 0 actualizó la Q-table con recompensa: 13.333333333333343 con error medio:0.8666666666666666
+2025-09-02 19:06:34,452 - INFO - Worker 8 copió la Q-table global en episodio 2.
+2025-09-02 19:06:34,816 - INFO - Worker 8 copió la Q-table global en episodio 3.
+2025-09-02 19:06:35,130 - INFO - Worker 8 copió la Q-table global en episodio 4.
+2025-09-02 19:07:06,386 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.1 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 8 
+
+2025-09-02 19:07:07,059 - INFO -  Episode 0 actualizó la Q-table con recompensa: 20.833333333333343 con error medio:0.7916666666666665
+2025-09-02 19:07:07,527 - INFO - Worker 8 copió la Q-table global en episodio 2.
+2025-09-02 19:07:08,096 - INFO - Worker 8 copió la Q-table global en episodio 3.
+2025-09-02 19:07:26,611 - INFO - Worker 8 copió la Q-table global en episodio 40.
+2025-09-02 19:07:26,889 - INFO - Worker 8 copió la Q-table global en episodio 41.
+2025-09-02 19:07:32,294 - INFO - Worker 8 copió la Q-table global en episodio 56.
+2025-09-02 19:07:33,882 - INFO - Worker 8 copió la Q-table global en episodio 61.
+2025-09-02 19:12:26,861 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.1 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 8 
+
+2025-09-02 19:12:27,244 - INFO - Worker 8 copió la Q-table global en episodio 1.
+2025-09-02 19:12:27,506 - INFO - Worker 8 copió la Q-table global en episodio 2.
+2025-09-02 19:12:28,741 - INFO - Worker 8 copió la Q-table global en episodio 4.
+2025-09-02 19:12:29,586 - INFO - Worker 8 copió la Q-table global en episodio 6.
+2025-09-02 19:12:33,726 - INFO - Worker 8 copió la Q-table global en episodio 15.

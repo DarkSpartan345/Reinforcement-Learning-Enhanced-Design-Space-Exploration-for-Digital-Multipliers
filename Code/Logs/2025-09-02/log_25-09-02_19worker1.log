@@ -1,0 +1,65 @@
+2025-09-02 19:04:55,751 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-09-02 19:05:55,222 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-09-02 19:06:08,510 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-09-02 19:06:33,322 - INFO - SARSA cooperation 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-09-02 19:06:33,805 - INFO - Worker 1 copió la Q-table global en episodio 1.
+2025-09-02 19:06:34,279 - INFO - Worker 1 copió la Q-table global en episodio 2.
+2025-09-02 19:06:34,662 - INFO -  Episode 2 actualizó la Q-table con recompensa: 28.194444444444457 con error medio:0.7180555555555554
+2025-09-02 19:06:35,063 - INFO - Worker 1 copió la Q-table global en episodio 4.
+2025-09-02 19:07:06,270 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-09-02 19:07:06,868 - INFO -  Episode 0 actualizó la Q-table con recompensa: -27.638888888888886 con error medio:1.2763888888888888
+2025-09-02 19:07:07,228 - INFO - Worker 1 copió la Q-table global en episodio 2.
+2025-09-02 19:07:07,625 - INFO - Worker 1 copió la Q-table global en episodio 3.
+2025-09-02 19:07:08,038 - INFO - Worker 1 copió la Q-table global en episodio 4.
+2025-09-02 19:07:26,717 - INFO - Worker 1 copió la Q-table global en episodio 46.
+2025-09-02 19:07:27,221 - INFO - Worker 1 copió la Q-table global en episodio 47.
+2025-09-02 19:07:31,975 - INFO - Worker 1 copió la Q-table global en episodio 64.
+2025-09-02 19:07:33,835 - INFO - Worker 1 copió la Q-table global en episodio 71.
+2025-09-02 19:12:26,718 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 1 
+
+2025-09-02 19:12:27,159 - INFO - Worker 1 copió la Q-table global en episodio 1.
+2025-09-02 19:12:27,698 - INFO - Worker 1 copió la Q-table global en episodio 2.
+2025-09-02 19:12:28,974 - INFO - Worker 1 copió la Q-table global en episodio 5.
+2025-09-02 19:12:29,752 - INFO - Worker 1 copió la Q-table global en episodio 7.
+2025-09-02 19:12:33,520 - INFO - Worker 1 copió la Q-table global en episodio 16.

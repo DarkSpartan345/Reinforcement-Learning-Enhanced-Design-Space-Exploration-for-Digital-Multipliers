@@ -1,0 +1,64 @@
+2025-09-02 19:04:55,771 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.35 
+ gamma 0.99 
+ worker_id 3 
+
+2025-09-02 19:05:55,243 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.35 
+ gamma 0.99 
+ worker_id 3 
+
+2025-09-02 19:06:08,530 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.35 
+ gamma 0.99 
+ worker_id 3 
+
+2025-09-02 19:06:10,258 - INFO -  Episode 3 actualizó la Q-table con recompensa: 23.33333333333333 con error medio:0.7666666666666667
+2025-09-02 19:06:33,349 - INFO - SARSA cooperation 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.35 
+ gamma 0.99 
+ worker_id 3 
+
+2025-09-02 19:06:33,806 - INFO -  Episode 0 actualizó la Q-table con recompensa: -25.0 con error medio:1.25
+2025-09-02 19:06:34,340 - INFO - Worker 3 copió la Q-table global en episodio 2.
+2025-09-02 19:06:34,876 - INFO - Worker 3 copió la Q-table global en episodio 3.
+2025-09-02 19:07:06,286 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.35 
+ gamma 0.99 
+ worker_id 3 
+
+2025-09-02 19:07:06,553 - INFO -  Episode 0 actualizó la Q-table con recompensa: -179.16666666666663 con error medio:2.791666666666666
+2025-09-02 19:07:06,998 - INFO - Worker 3 copió la Q-table global en episodio 2.
+2025-09-02 19:07:07,394 - INFO -  Episode 2 actualizó la Q-table con recompensa: 46.25 con error medio:0.5375
+2025-09-02 19:07:07,938 - INFO - Worker 3 copió la Q-table global en episodio 4.
+2025-09-02 19:07:26,778 - INFO - Worker 3 copió la Q-table global en episodio 45.
+2025-09-02 19:07:27,107 - INFO - Worker 3 copió la Q-table global en episodio 46.
+2025-09-02 19:07:32,151 - INFO - Worker 3 copió la Q-table global en episodio 60.
+2025-09-02 19:07:33,638 - INFO - Worker 3 copió la Q-table global en episodio 67.
+2025-09-02 19:12:26,737 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.35 
+ gamma 0.99 
+ worker_id 3 
+
+2025-09-02 19:12:27,459 - INFO - Worker 3 copió la Q-table global en episodio 1.
+2025-09-02 19:12:28,654 - INFO - Worker 3 copió la Q-table global en episodio 4.
+2025-09-02 19:12:29,872 - INFO - Worker 3 copió la Q-table global en episodio 6.
+2025-09-02 19:12:33,701 - INFO - Worker 3 copió la Q-table global en episodio 15.

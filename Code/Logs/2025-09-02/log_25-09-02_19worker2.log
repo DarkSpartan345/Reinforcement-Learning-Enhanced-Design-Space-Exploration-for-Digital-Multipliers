@@ -1,0 +1,64 @@
+2025-09-02 19:04:55,758 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.2 
+ gamma 0.99 
+ worker_id 2 
+
+2025-09-02 19:05:55,236 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.2 
+ gamma 0.99 
+ worker_id 2 
+
+2025-09-02 19:06:08,517 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.2 
+ gamma 0.99 
+ worker_id 2 
+
+2025-09-02 19:06:33,327 - INFO - SARSA cooperation 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.2 
+ gamma 0.99 
+ worker_id 2 
+
+2025-09-02 19:06:33,840 - INFO - Worker 2 copió la Q-table global en episodio 1.
+2025-09-02 19:06:34,432 - INFO - Worker 2 copió la Q-table global en episodio 2.
+2025-09-02 19:06:34,926 - INFO - Worker 2 copió la Q-table global en episodio 3.
+2025-09-02 19:07:06,280 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.2 
+ gamma 0.99 
+ worker_id 2 
+
+2025-09-02 19:07:06,584 - INFO -  Episode 0 actualizó la Q-table con recompensa: -140.0 con error medio:2.4
+2025-09-02 19:07:07,145 - INFO - Worker 2 copió la Q-table global en episodio 2.
+2025-09-02 19:07:07,682 - INFO - Worker 2 copió la Q-table global en episodio 3.
+2025-09-02 19:07:08,162 - INFO - Worker 2 copió la Q-table global en episodio 4.
+2025-09-02 19:07:26,577 - INFO -  Episode 47 actualizó la Q-table con recompensa: 53.88888888888889 con error medio:0.4611111111111111
+2025-09-02 19:07:26,912 - INFO - Worker 2 copió la Q-table global en episodio 49.
+2025-09-02 19:07:32,045 - INFO - Worker 2 copió la Q-table global en episodio 67.
+2025-09-02 19:07:33,940 - INFO - Worker 2 copió la Q-table global en episodio 73.
+2025-09-02 19:12:26,730 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.2 
+ gamma 0.99 
+ worker_id 2 
+
+2025-09-02 19:12:27,110 - INFO -  Episode 0 actualizó la Q-table con recompensa: 10.0 con error medio:0.9
+2025-09-02 19:12:27,342 - INFO -  Episode 1 actualizó la Q-table con recompensa: 17.77777777777777 con error medio:0.8222222222222223
+2025-09-02 19:12:28,814 - INFO - Worker 2 copió la Q-table global en episodio 6.
+2025-09-02 19:12:29,703 - INFO - Worker 2 copió la Q-table global en episodio 8.
+2025-09-02 19:12:33,451 - INFO - Worker 2 copió la Q-table global en episodio 17.

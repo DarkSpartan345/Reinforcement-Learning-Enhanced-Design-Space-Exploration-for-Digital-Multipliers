@@ -1,0 +1,63 @@
+2025-09-02 19:04:55,818 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-09-02 19:05:55,285 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-09-02 19:06:08,555 - INFO - SARSA independent 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-09-02 19:06:10,619 - INFO -  Episode 4 actualizó la Q-table con recompensa: 35.0 con error medio:0.65
+2025-09-02 19:06:33,538 - INFO - SARSA cooperation 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-09-02 19:06:34,134 - INFO - Worker 9 copió la Q-table global en episodio 1.
+2025-09-02 19:06:35,073 - INFO - Worker 9 copió la Q-table global en episodio 3.
+2025-09-02 19:07:06,398 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-09-02 19:07:07,092 - INFO - Worker 9 copió la Q-table global en episodio 1.
+2025-09-02 19:07:07,849 - INFO - Worker 9 copió la Q-table global en episodio 2.
+2025-09-02 19:07:08,320 - INFO - Worker 9 copió la Q-table global en episodio 3.
+2025-09-02 19:07:26,665 - INFO - Worker 9 copió la Q-table global en episodio 47.
+2025-09-02 19:07:26,951 - INFO - Worker 9 copió la Q-table global en episodio 48.
+2025-09-02 19:07:31,924 - INFO -  Episode 64 actualizó la Q-table con recompensa: 60.55555555555556 con error medio:0.39444444444444443
+2025-09-02 19:07:33,758 - INFO - Worker 9 copió la Q-table global en episodio 72.
+2025-09-02 19:12:26,862 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-09-02 19:12:27,275 - INFO - Worker 9 copió la Q-table global en episodio 1.
+2025-09-02 19:12:27,908 - INFO - Worker 9 copió la Q-table global en episodio 2.
+2025-09-02 19:12:28,531 - INFO - Worker 9 copió la Q-table global en episodio 4.
+2025-09-02 19:12:29,798 - INFO - Worker 9 copió la Q-table global en episodio 7.
+2025-09-02 19:12:33,331 - INFO - Worker 9 copió la Q-table global en episodio 16.
