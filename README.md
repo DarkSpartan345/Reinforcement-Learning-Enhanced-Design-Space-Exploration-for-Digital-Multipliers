@@ -6,7 +6,7 @@ This repository contains the full codebase, configuration files, and supporting 
 
 Digital multipliers are essential components in a wide variety of hardware systems. Optimizing their design requires exploring a vast space of architectural alternatives. This project employs RL agents to intelligently navigate that space, aiming to identify efficient architectures that outperform traditional multipliers in terms of design metrics.
 
-## Repository Structure
+## Code Structure
 
 ```
 .
@@ -16,7 +16,7 @@ Digital multipliers are essential components in a wide variety of hardware syste
 ├── Envs
 │   ├── env_base.py                       # Base environment class
 │   ├── environment.py                    # Environment setup for RL training
-│   ├── Env_parallel_Processor.py         # Parallelized environment implementation
+│   └── Env_parallel_Processor.py         # Parallelized environment implementation
 ├── Logs
 │   └── <date>/                           # Training logs with per-worker outputs
 ├── Utils
@@ -24,7 +24,7 @@ Digital multipliers are essential components in a wide variety of hardware syste
 │   └── Store.py                          # Data storage and management helpers
 ├── Verilog
 │   ├── multiplier_*.v                    # Verilog multiplier designs generated during exploration
-│   ├── testbench_template.v              # Testbench template for simulations
+│   └── testbench_template.v              # Testbench template for simulations
 ├── main_Parallel_Procesor.py             # Main script to launch RL training
 ├── Requirements.txt                      # Python dependencies
 └── multiplier_8bit_tb.vcd                # Example simulation output
@@ -38,7 +38,7 @@ Digital multipliers are essential components in a wide variety of hardware syste
 * Verilog simulator (Icarus Verilog)
 * Virtual environment (recommended)
 
-### Installation Project
+### Installation
 
 ```bash
 # Clone the repository
@@ -63,9 +63,11 @@ Follow the steps below depending on your operating system:
 sudo apt update
 sudo apt install iverilog gtkwave 
 ```
+### Windows 
 
+Go to https://bleyer.org/icarus/ and download the latest .exe file
 
-### Running the Project
+## Running the Project
 
 To start RL-based exploration with parallel agents:
 
@@ -83,6 +85,10 @@ For more details on execution options and how to adjust parameters, please refer
 * RL agents progressively optimize multiplier architectures.
 * Logs provide insight into training performance.
 * Generated Verilog files can be simulated and compared against baseline multipliers.
+
+## Data analysis
+
+The scripts provided for the data analysis are Jupyter notebooks, but those can be converted to python scripts if needed. The scripts are configured to plot the information used in the paper, to manually check those files go to the folder "Data Analysis". To plot new results you can change the path in the code or place the logs/csv files in the folders for that purpouse.
 
 ## License
 
