@@ -61,3 +61,15 @@
 2025-09-02 19:12:28,531 - INFO - Worker 9 copió la Q-table global en episodio 4.
 2025-09-02 19:12:29,798 - INFO - Worker 9 copió la Q-table global en episodio 7.
 2025-09-02 19:12:33,331 - INFO - Worker 9 copió la Q-table global en episodio 16.
+2025-09-02 19:22:07,067 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.2 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 9 
+
+2025-09-02 19:22:07,446 - INFO - Worker 9 copió la Q-table global en episodio 1.
+2025-09-02 19:22:07,845 - INFO - Worker 9 copió la Q-table global en episodio 2.
+2025-09-02 19:22:08,346 - INFO - Worker 9 copió la Q-table global en episodio 3.
+2025-09-02 19:22:11,136 - INFO - Worker 9 copió la Q-table global en episodio 10.

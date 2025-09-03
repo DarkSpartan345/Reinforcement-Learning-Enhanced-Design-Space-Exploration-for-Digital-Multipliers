@@ -62,3 +62,14 @@
 2025-09-02 19:12:28,890 - INFO - Worker 11 copió la Q-table global en episodio 5.
 2025-09-02 19:12:29,382 - INFO -  Episode 5 actualizó la Q-table con recompensa: 61.11111111111111 con error medio:0.38888888888888895
 2025-09-02 19:12:33,663 - INFO - Worker 11 copió la Q-table global en episodio 17.
+2025-09-02 19:22:07,141 - INFO - SARSA cooperation_with_noise 
+ Reward -100 Bits 2 Height 2 
+ Episodios: 100000 
+ epsilon 0.4 
+ alpha 0.1 
+ gamma 0.99 
+ worker_id 11 
+
+2025-09-02 19:22:07,633 - INFO - Worker 11 copió la Q-table global en episodio 1.
+2025-09-02 19:22:07,989 - INFO -  Episode 1 actualizó la Q-table con recompensa: 30.694444444444457 con error medio:0.6930555555555554
+2025-09-02 19:22:11,348 - INFO - Worker 11 copió la Q-table global en episodio 9.

@@ -1,0 +1,9 @@
+cloudpickle==2.2.1
+Farama-Notifications==0.0.4
+gymnasium==0.28.1
+importlib-metadata==6.7.0
+jax-jumpy==1.0.0
+numpy==1.21.6
+tqdm==4.67.1
+typing_extensions==4.7.1
+zipp==3.15.0
