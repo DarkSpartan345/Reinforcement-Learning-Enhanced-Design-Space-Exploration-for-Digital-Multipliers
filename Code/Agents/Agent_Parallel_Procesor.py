@@ -3,10 +3,16 @@ from Envs.Env_parallel_Processor import BinaryMathEnvParallel
 import time
 class Parallel_Agents_Procesors():
 
-    def __init__(self,action_values):
+    def __init__(self,action_values,algoritm):
         self.action_values=action_values
         self.actions=6
-        self.max_reward=-90    
+        self.max_reward=-90 
+        self.algoritm=algoritm
+    def Algoritm(self,policy, episodes,epsilon_decay, alpha=0.1, gamma=0.99, epsilon=0.2, n=6,env_id=0,height=2,bits=2,reward=-200):
+        if self.algoritm=="SARSA":
+            return self.sarsa(policy, episodes,epsilon_decay, alpha, gamma, epsilon,env_id,height,bits,reward)
+        elif self.algoritm=="SARSA_N_STEPS":
+            return self.n_step_sarsa(policy, episodes,epsilon_decay, alpha, gamma, epsilon, n,env_id,height,bits,reward)
 
     def policy_sarsa(self,state, epsilon=0.):
         if np.random.random() < epsilon:

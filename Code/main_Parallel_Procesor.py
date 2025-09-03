@@ -10,22 +10,22 @@ import os
 import argparse
 import traceback
 
-def worker(worker_id,best_reward,reward, global_q_table, episodes, epsilon_decay,dim_states,actions,height=2,bits=2,alpha=0.1,gamma=0.99,epsilon=0.2,stategy="cooperation_under_advantage_with_noise"):
+def worker(worker_id,best_reward,reward, global_q_table, episodes, epsilon_decay,dim_states,actions,height=2,bits=2,alpha=0.1,gamma=0.99,epsilon=0.2,stategy="cooperation_under_advantage_with_noise",algoritmo="SARSA"):
 
     name_log = f"log_{datetime.now().strftime('%y-%m-%d_%H')}worker{worker_id}.log"
     logs = Store(name_log)
     local_q_table=np.random.rand(*dim_states, actions)
-    local_agent = Parallel_Agents_Procesors(action_values=local_q_table)  # Cada worker inicia con la tabla global
-    logs.log(f"SARSA con workers Dependientes con ruido con ventaja \n Reward {reward} Bits {bits} Height {height} \n Episodios: {episodes} \n epsilon {epsilon} \n alpha {alpha} \n gamma {gamma} \n worker_id {worker_id} \n")
+    local_agent = Parallel_Agents_Procesors(action_values=local_q_table,algoritm=algoritmo)  # Cada worker inicia con la tabla global
+    logs.log(f"SARSA {stategy} \n Reward {reward} Bits {bits} Height {height} \n Episodios: {episodes} \n epsilon {epsilon} \n alpha {alpha} \n gamma {gamma} \n worker_id {worker_id} \n")
     local_reward = float("-inf")
+    Strategy = strategy(logs=logs,shape=local_agent.action_values.shape,stategy=stategy,global_q_table=global_q_table,worker_id=worker_id,episode=episode,best_reward=best_reward,local_reward=local_reward,q_table_agent=local_agent.action_values)
     try:
         for episode in tqdm(range(episodes)):
             if update_flags[worker_id]:  
                 with lock:
-                    Strategy = strategy(logs=logs,shape=local_agent.action_values.shape,stategy=stategy,global_q_table=global_q_table,worker_id=worker_id,episode=episode,best_reward=best_reward,local_reward=local_reward,q_table_agent=local_agent.action_values)
-                    local_agent.action_values=Strategy.q_table_agent
+                    local_agent.action_values=Strategy.Strategy(global_q_table,worker_id,episode,best_reward,local_reward,local_agent.action_values)
                     update_flags[worker_id] = False
-            total_reward = local_agent.n_step_sarsa(policy=local_agent.policy_sarsa,episodes=1,epsilon_decay=epsilon_decay, alpha=alpha, gamma=gamma,epsilon=epsilon,env_id=worker_id,height=2,bits=2,reward=reward)
+            total_reward = local_agent.Algoritm(policy=local_agent.policy_sarsa,episodes=1,epsilon_decay=epsilon_decay, alpha=alpha, gamma=gamma,epsilon=epsilon,env_id=worker_id,height=2,bits=2,reward=reward)
             local_reward = total_reward[-1] if total_reward[-1]>local_reward else local_reward
             with lock:
                 if total_reward[-1] > best_reward.value:
@@ -49,9 +49,12 @@ if __name__ == "__main__":
     parser.add_argument("--B", type=int, default=2, help="Bits (por defecto: 2)")
     parser.add_argument("--H", type=int, default=2, help="Height (por defecto: 2)")
     parser.add_argument("--s", type=str, required=True,
-                        choices=["cooperation", "cooperation_with_noise", 
+                        choices=["independent","cooperation", "cooperation_with_noise", 
                                  "cooperation_under_advantage", "cooperation_under_advantage_with_noise"],
                         help="Estrategia a ejecutar")
+    parser.add_argument("--a", type=str,required=True,
+                        choices=["SARSA", "SARSA_N_STEPS"],
+                        help="Algoritmo a ejecutar")
 
     # Parsear argumentos
     args = parser.parse_args()
@@ -59,6 +62,7 @@ if __name__ == "__main__":
     name_log=[f"log_{datetime.now().strftime('%Y-%m-%d %H_%M')}w{w}_.log" for w in range(num_workers)]
     episodes_per_worker = parser.parse_args().ep
     stategy= parser.parse_args().s
+    algoritmo= parser.parse_args().a
     print(f"Ejecutando con {num_workers} workers y {episodes_per_worker} episodios por worker.")
     print(f"nombre de logs {name_log}")
     #logs=Store(name_log)
@@ -91,15 +95,15 @@ if __name__ == "__main__":
     for worker_id in range(num_workers):
         if worker_id<4:
             alphaE= alpha[worker_id]
-            p = mp.Process(target=worker, args=(worker_id,best_reward,reward, global_q_table, episodes, None,dim_states,actions,height,Bits,alphaE,0.99,0.2,stategy))
+            p = mp.Process(target=worker, args=(worker_id,best_reward,reward, global_q_table, episodes, None,dim_states,actions,height,Bits,alphaE,0.99,0.2,stategy,algoritmo))
             processes.append(p)
         elif worker_id<8:
             gammaE= gamma[worker_id%4]
-            p = mp.Process(target=worker, args=(worker_id,best_reward,reward, global_q_table, episodes, None,dim_states,actions,height,Bits,0.1,gammaE,0.2,stategy))
+            p = mp.Process(target=worker, args=(worker_id,best_reward,reward, global_q_table, episodes, None,dim_states,actions,height,Bits,0.1,gammaE,0.2,stategy,algoritmo))
             processes.append(p)
         else:
             epsilonE = epsilon[worker_id % 4]
-            p = mp.Process(target=worker, args=(worker_id,best_reward,reward, global_q_table, episodes, None,dim_states,actions,height,Bits,0.1,0.99,epsilonE,stategy))
+            p = mp.Process(target=worker, args=(worker_id,best_reward,reward, global_q_table, episodes, None,dim_states,actions,height,Bits,0.1,0.99,epsilonE,stategy,algoritmo))
             processes.append(p)
         p.start()
     # Iniciar los procesos

@@ -5,15 +5,18 @@ class strategy:
         
         self.logs=logs
         self.shape=shape
-        self.Strategy=stategy
-        if stategy=="cooperation":
-            self.q_table_agent=self.Cooperation(global_q_table,worker_id,episode)
-        elif stategy=="cooperation_with_noise":
-            self.q_table_agent=self.Cooperation_with_noise(global_q_table,worker_id,episode)
-        elif stategy=="cooperation_under_advantage":
-            self.q_table_agent=self.Cooperation_under_advantage(best_reward,local_reward,global_q_table,worker_id,episode,q_table_agent)
-        elif stategy=="cooperation_under_advantage_with_noise":
-            self.q_table_agent=self.Cooperation_under_advantage_with_noise(best_reward,local_reward,global_q_table,worker_id,episode,q_table_agent)
+        self.Strat=stategy
+    def Strategy(self,global_q_table=None,worker_id=None,episode=None,best_reward=None,local_reward=None,q_table_agent=None):
+        if self.Strat=="independent":
+            return q_table_agent
+        if self.Strat=="cooperation":
+            return self.Cooperation(global_q_table,worker_id,episode)
+        elif self.Strat=="cooperation_with_noise":
+            return self.Cooperation_with_noise(global_q_table,worker_id,episode)
+        elif self.Strat=="cooperation_under_advantage":
+            return self.Cooperation_under_advantage(best_reward,local_reward,global_q_table,worker_id,episode,q_table_agent)
+        elif self.Strat=="cooperation_under_advantage_with_noise":
+            return self.Cooperation_under_advantage_with_noise(best_reward,local_reward,global_q_table,worker_id,episode,q_table_agent)
         else:
             print("estrategia no valida")
             raise ValueError("Estrategia no válida")
@@ -26,7 +29,7 @@ class strategy:
         q_table_agent = q_table_agent*np.random.normal(loc=0.5, scale=0.5, size=self.shape)
         return q_table_agent
     def Cooperation_under_advantage(self,best_reward,local_reward,global_q_table,worker_id,episode,q_table_agent):
-        adv = best_reward - local_reward
+        adv = best_reward.value - local_reward
         sigmo= 1/(1+np.exp(-adv+6))
         self.deci=np.random.choice([False,True], p=[1-sigmo, sigmo])
         q_table_agent= self.Cooperation(global_q_table,worker_id,episode) if self.deci else q_table_agent
